@@ -41,8 +41,8 @@ anyhow = { workspace = true }
 tokio = { workspace = true, features = ["rt", "macros", "signal"] }
 
 ksni = {version = "0.2.2", optional = true}
-aw-server = { git = "https://github.com/ActivityWatch/aw-server-rust", optional = true, rev = "656f3c9" }
-aw-datastore = { git = "https://github.com/ActivityWatch/aw-server-rust", optional = true, rev = "656f3c9" }
+aw-server = { git = "https://github.com/ActivityWatch/aw-server-rust", optional = true, rev = "7ffceb8" }
+aw-datastore = { git = "https://github.com/ActivityWatch/aw-server-rust", optional = true, rev = "7ffceb8" }
 open = { version = "5.3.2", optional = true }
 serde = { workspace = true, optional = true }
 

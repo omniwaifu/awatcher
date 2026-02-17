@@ -92,7 +92,7 @@ where
         self.globals
             .bind::<ExtIdleNotifierV1, T, ()>(
                 &self.queue_handle,
-                1..=ExtIdleNotifierV1::interface().version,
+                2..=ExtIdleNotifierV1::interface().version,
                 (),
             )
             .map_err(std::convert::Into::into)
@@ -109,7 +109,7 @@ where
                 .bind(&self.queue_handle, 1..=WlSeat::interface().version, ())?;
 
         let idle = self.get_ext_idle()?;
-        Ok(idle.get_idle_notification(timeout, &seat, &self.queue_handle, ()))
+        Ok(idle.get_input_idle_notification(timeout, &seat, &self.queue_handle, ()))
     }
 
     pub fn get_kwin_idle_timeout(&self, timeout: u32) -> anyhow::Result<OrgKdeKwinIdleTimeout>
