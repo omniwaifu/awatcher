@@ -416,7 +416,7 @@ dependencies = [
 [[package]]
 name = "aw-client-rust"
 version = "0.1.0"
-source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=7ffceb8#7ffceb87878ac63a443555f97c9bc45424f9dbfa"
+source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=d40d712#d40d712cff2c1d5621b86e401e32076d2beef737"
 dependencies = [
  "aw-models",
  "chrono",
@@ -437,7 +437,7 @@ dependencies = [
 [[package]]
 name = "aw-datastore"
 version = "0.1.0"
-source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=7ffceb8#7ffceb87878ac63a443555f97c9bc45424f9dbfa"
+source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=d40d712#d40d712cff2c1d5621b86e401e32076d2beef737"
 dependencies = [
  "appdirs",
  "aw-models",
@@ -453,7 +453,7 @@ dependencies = [
 [[package]]
 name = "aw-models"
 version = "0.1.0"
-source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=7ffceb8#7ffceb87878ac63a443555f97c9bc45424f9dbfa"
+source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=d40d712#d40d712cff2c1d5621b86e401e32076d2beef737"
 dependencies = [
  "chrono",
  "log",
@@ -465,7 +465,7 @@ dependencies = [
 [[package]]
 name = "aw-query"
 version = "0.1.0"
-source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=7ffceb8#7ffceb87878ac63a443555f97c9bc45424f9dbfa"
+source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=d40d712#d40d712cff2c1d5621b86e401e32076d2beef737"
 dependencies = [
  "aw-datastore",
  "aw-models",
@@ -481,7 +481,7 @@ dependencies = [
 [[package]]
 name = "aw-server"
 version = "0.13.1"
-source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=7ffceb8#7ffceb87878ac63a443555f97c9bc45424f9dbfa"
+source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=d40d712#d40d712cff2c1d5621b86e401e32076d2beef737"
 dependencies = [
  "android_logger",
  "appdirs",
@@ -513,7 +513,7 @@ dependencies = [
 [[package]]
 name = "aw-transform"
 version = "0.1.0"
-source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=7ffceb8#7ffceb87878ac63a443555f97c9bc45424f9dbfa"
+source = "git+https://github.com/ActivityWatch/aw-server-rust?rev=d40d712#d40d712cff2c1d5621b86e401e32076d2beef737"
 dependencies = [
  "aw-models",
  "chrono",
